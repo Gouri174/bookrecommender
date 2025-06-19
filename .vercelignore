@@ -1,0 +1,7 @@
+# .vercelignore
+*.csv           # Exclude all CSV files
+tagged_description.txt
+chroma_db/
+*.pkl
+*.bin
+.venv/

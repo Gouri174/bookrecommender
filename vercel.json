@@ -5,8 +5,7 @@
       "src": "flask_dashboard.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "50mb",
-        "pythonVersion": "3.9"
+        "pythonVersion": "3.11"
       }
     }
   ],

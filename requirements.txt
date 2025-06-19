@@ -1,5 +1,15 @@
-flask==2.3.2
-python-dotenv==1.0.0
-numpy==1.23.5  # Downgraded for compatibility
-pandas==1.5.3
-langchain==0.0.200  # Updated version
+flask>=2.0.0
+pandas>=1.0.0
+numpy>=1.0.0
+python-dotenv>=0.19.0
+langchain-community==0.0.34
+langchain-core==0.3.65
+langchain-text-splitters==0.3.8
+langsmith==0.3.45
+langchain-chroma==0.2.4
+langchain-huggingface==0.3.0
+sentence-transformers==4.1.0
+transformers==4.52.4
+tokenizers==0.21.1
+huggingface-hub==0.33.0
+#Successfully installed huggingface-hub-0.33.0 sentence-transformers-4.1.0 tokenizers-0.21.1 transformers-4.52.4  

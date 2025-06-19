@@ -3,14 +3,14 @@
   "builds": [
     {
       "src": "flask_dashboard.py",
-      "use": "@vercel/python",
-      "config": {
-        "pythonVersion": "3.11.9",
-        "maxLambdaSize": "50mb"
-      }
+      "use": "@vercel/python"
     }
   ],
   "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
     {
       "src": "/(.*)",
       "dest": "flask_dashboard.py"

@@ -1,5 +1,5 @@
 flask==2.3.2
 python-dotenv==1.0.0
+numpy==1.23.5  # Downgraded for compatibility
 pandas==1.5.3
-numpy==1.24.0
-langchain==0.0.1
+langchain==0.0.200  # Updated version
